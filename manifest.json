@@ -1,0 +1,40 @@
+{
+  "course": "Lập trình kỹ thuật với Arduino — từ tư duy thuật toán đến điều khiển hệ thống",
+  "institution": "Trường Đại học Công nghệ Kỹ thuật Hưng Yên (HYUTE)",
+  "department": "Khoa Cơ khí động lực",
+  "lecturer": "TS. Lê Trí Quang",
+  "modules": 5,
+  "lessons": 20,
+  "version": "1.2",
+  "platform": "Static HTML/CSS/JavaScript; Tinkercad Circuits external",
+  "lesson_policy": "Sinh viên tự vẽ mạch trên Tinkercad theo danh mục linh kiện và bảng gợi ý kết nối; không cung cấp hình sơ đồ AI tạo",
+  "validation": {
+    "html_static": "PASS — 23 pages links and IDs, inline JavaScript parse",
+    "javascript_syntax": "PASS — Node.js check",
+    "quiz_interaction_mock_new_10_20": "PASS — all 11",
+    "cxx_syntax_new_10_20": "PASS — all 11 using mocked Arduino API",
+    "homepage_mock": "PASS — 5 modules, 20 lessons",
+    "tinkercad_runtime": "NOT TESTED",
+    "full_real_browser": "Bài 0 tested with Chromium via set_content on desktop/mobile; direct file navigation blocked in test environment",
+    "bai_21_syntax": "PASS — node --check",
+    "exam_practice_runtime": "NOT YET TESTED ON TINKERCAD",
+    "bai_21_mock_browser": "PASS — 10 interactive scenarios, 20 quiz questions",
+    "bai_21_links": "PASS — 22 HTML files, internal targets",
+    "bai_21_chromium_navigation": "LIMITED — file:// and localhost blocked by environment; page.set_content tested",
+    "intro_lesson": "PASS — Chromium DOM interaction, flowchart/quiz/lookup; sketch g++ API stub syntax"
+  },
+  "supplementary_lessons": 2,
+  "exam_practice": {
+    "count": 10,
+    "href": "lessons/bai_21_on_thi.html",
+    "environment": "Tinkercad Circuits only",
+    "adaptation_note": "Exam 4 uses 4-digit 7-segment alternative; exam 8 uses L293D as alternative; exam 2 may omit ULN2803A with current limits; exam 7 may use LCD parallel 4-bit"
+  },
+  "intro_lesson": {
+    "id": 0,
+    "href": "lessons/bai_00_thuat_toan_ma_gia_luu_do_tra_cuu.html",
+    "title": "Phương pháp xây dựng thuật toán bằng mã giả, lưu đồ và bảng tra cứu lệnh Arduino"
+  },
+  "terminology_glossary": "thuat_ngu.html",
+  "terminology_revision": "v1.3"
+}

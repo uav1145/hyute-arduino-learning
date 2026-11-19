@@ -1,0 +1,356 @@
+[
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Thuật toán",
+    "en": "Algorithm",
+    "definition": "Dãy bước hữu hạn, xác định nhằm biến đầu vào thành đầu ra theo yêu cầu; thuật toán điều khiển chạy liên tục thường mô tả chu trình lặp."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Mã giả",
+    "en": "Pseudocode",
+    "definition": "Cách mô tả thuật toán bằng ngôn ngữ tự nhiên có cấu trúc, không bắt buộc tuân theo cú pháp C++."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Lưu đồ thuật toán",
+    "en": "Flowchart",
+    "definition": "Biểu diễn trực quan luồng xử lý bằng các ký hiệu khởi đầu/kết thúc, thao tác, điều kiện và mũi tên."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Cấu trúc tuần tự",
+    "en": "Sequence",
+    "definition": "Các thao tác thực hiện theo thứ tự đã xác định."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Rẽ nhánh",
+    "en": "Selection / branching",
+    "definition": "Thực hiện một nhánh xử lý dựa trên kết quả biểu thức điều kiện."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Vòng lặp",
+    "en": "Loop / iteration",
+    "definition": "Lặp lại thao tác theo điều kiện hoặc cơ chế lặp; phân biệt các lệnh for/while/do...while với hàm loop() của Arduino."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Hàm",
+    "en": "Function",
+    "definition": "Đơn vị mã nguồn được gọi để thực hiện nhiệm vụ, có thể có tham số và kiểu dữ liệu trả về."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Tham số / đối số",
+    "en": "Parameter / argument",
+    "definition": "Tham số nằm trong khai báo/định nghĩa hàm; đối số là giá trị hoặc biểu thức được truyền khi gọi hàm."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Biến / hằng",
+    "en": "Variable / constant",
+    "definition": "Biến lưu giá trị có thể thay đổi; đối tượng const không cho phép sửa giá trị qua tên đó sau khởi tạo phù hợp."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Kiểu dữ liệu",
+    "en": "Data type",
+    "definition": "Quy định cách biểu diễn, phép toán và miền giá trị dữ liệu; kích thước một số kiểu phụ thuộc kiến trúc bo mạch."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Mảng",
+    "en": "Array",
+    "definition": "Tập hợp phần tử cùng kiểu, truy cập theo chỉ số bắt đầu từ 0 trong C/C++."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Chương trình Arduino",
+    "en": "Arduino sketch",
+    "definition": "Mã nguồn .ino được tiền xử lý và biên dịch chủ yếu bằng C++; dùng API và thư viện Arduino."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Giá trị logic",
+    "en": "Boolean",
+    "definition": "Giá trị đúng/sai (true/false); không đồng nhất với mức điện HIGH/LOW nếu chưa xác định mạch."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Lệnh / cấu trúc / hàm",
+    "en": "Statement / structure / function",
+    "definition": "Không gọi mọi thành phần là lệnh: if/for là cấu trúc điều khiển, pinMode() là hàm, int là tên kiểu dữ liệu."
+  },
+  {
+    "group": "Thuật toán và lập trình",
+    "vi": "Thời điểm / khoảng thời gian",
+    "en": "Timestamp / interval",
+    "definition": "Thời điểm là số đọc từ bộ đếm; khoảng thời gian là hiệu hai thời điểm theo cùng đơn vị."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Vi điều khiển",
+    "en": "Microcontroller",
+    "definition": "Mạch tích hợp chứa bộ xử lý, bộ nhớ và ngoại vi để thực hiện chương trình điều khiển."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Bo mạch Arduino UNO R3",
+    "en": "Development board",
+    "definition": "Bo mạch dùng ATmega328P; đặc tính I/O, ADC và PWM trong khóa học áp dụng cho phiên bản UNO R3 này."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Chân vào/ra số",
+    "en": "Digital I/O pin",
+    "definition": "Chân đọc/ghi mức logic; cần xác định chế độ INPUT, OUTPUT hoặc INPUT_PULLUP."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Mức logic HIGH / LOW",
+    "en": "Digital logic levels",
+    "definition": "Mức logic cao/thấp; không mặc định HIGH luôn làm thiết bị bật vì phụ thuộc cực tính mạch."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Điện trở kéo lên / kéo xuống",
+    "en": "Pull-up / pull-down resistor",
+    "definition": "Tạo mức logic xác định cho đầu vào khi công tắc hở; INPUT_PULLUP là chế độ kéo lên nội."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Đầu vào thả nổi",
+    "en": "Floating input",
+    "definition": "Đầu vào không được ràng buộc về mức logic, có thể đọc bất ổn định do nhiễu."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Đầu vào tương tự",
+    "en": "Analog input",
+    "definition": "Nhận điện áp biến thiên trong miền cho phép đưa đến bộ chuyển đổi tương tự–số."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Bộ chuyển đổi tương tự–số",
+    "en": "Analog-to-digital converter (ADC)",
+    "definition": "Chuyển điện áp đầu vào thành mã số; ADC trên UNO R3 mặc định có độ phân giải 10 bit."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Mã ADC",
+    "en": "ADC code",
+    "definition": "Giá trị số nguyên từ 0 đến 1023 trên UNO R3 ở cấu hình mặc định; chưa phải điện áp hoặc nhiệt độ."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Điện áp tham chiếu ADC",
+    "en": "ADC reference voltage, Vref",
+    "definition": "Điện áp dùng làm tham chiếu chuyển đổi; không luôn bằng chính xác 5,000 V và phụ thuộc cấu hình/phần cứng."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Bước lượng tử ADC",
+    "en": "Least significant bit (LSB)",
+    "definition": "Với ADC 10 bit, độ rộng khoảng lượng tử lý tưởng xấp xỉ Vref/1024; khác với công thức hiển thị quy đổi hai đầu 0–1023."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Điều chế độ rộng xung",
+    "en": "Pulse-width modulation (PWM)",
+    "definition": "Kỹ thuật thay đổi phần thời gian xung ở mức HIGH trong một chu kỳ; không đồng nghĩa bộ chuyển đổi DAC."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Chu kỳ công tác",
+    "en": "Duty cycle",
+    "definition": "Tỷ số thời gian xung ở trạng thái tác động so với chu kỳ; thường biểu diễn bằng %. Chỉ sử dụng định nghĩa HIGH khi mạch tác động mức cao."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Điện áp trung bình PWM",
+    "en": "Average PWM voltage",
+    "definition": "Giá trị trung bình theo thời gian của tín hiệu PWM; không có nghĩa chân tạo ra điện áp DC liên tục nếu chưa lọc."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Nguồn logic / nguồn tải",
+    "en": "Logic supply / load supply",
+    "definition": "Nguồn phục vụ mạch điều khiển và nguồn cấp tải; phải phân biệt điện áp, dòng và cách nối đất chung phù hợp."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Tầng công suất",
+    "en": "Power driver stage",
+    "definition": "Mạch trung gian cấp năng lượng phù hợp cho tải, giúp tín hiệu vi điều khiển không trực tiếp chịu dòng tải lớn."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Tín hiệu lệnh / phản hồi",
+    "en": "Command / feedback",
+    "definition": "Lệnh ra LED hoặc driver không chứng minh động cơ/contactor đã chạy; phải có cảm biến hoặc tiếp điểm phản hồi để xác nhận."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Thiết bị chấp hành",
+    "en": "Actuator",
+    "definition": "Phần tử tạo tác động vật lý theo tín hiệu điều khiển, ví dụ động cơ, van, rơ-le."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "LED 7 đoạn",
+    "en": "Seven-segment display",
+    "definition": "Thiết bị hiển thị gồm bảy đoạn a–g và có thể có dấu chấm thập phân; “LED 7 thanh” là cách gọi khác trong đề gốc."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Thanh ghi dịch",
+    "en": "Shift register",
+    "definition": "Mạch ghi dữ liệu nối tiếp và cung cấp dữ liệu song song, ví dụ 74HC595 có tín hiệu DATA/CLOCK/LATCH."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "Bàn phím ma trận",
+    "en": "Matrix keypad",
+    "definition": "Các phím được bố trí trên giao điểm hàng–cột, đọc bằng phương pháp quét hàng/cột."
+  },
+  {
+    "group": "Điện – vi điều khiển",
+    "vi": "LCD 16×2",
+    "en": "Character LCD",
+    "definition": "Màn hình ký tự 16 cột × 2 dòng; LiquidCrystal hỗ trợ cấu hình giao tiếp song song phù hợp."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Dội tiếp điểm",
+    "en": "Contact bounce",
+    "definition": "Nút nhấn cơ khí có thể tạo nhiều chuyển mức ngắn khi thay đổi trạng thái."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Chống dội nút nhấn",
+    "en": "Debouncing",
+    "definition": "Xác nhận thao tác nhấn/nhả hợp lệ sau khi tín hiệu ổn định hoặc bằng phương pháp phù hợp."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Mức tín hiệu / cạnh tín hiệu",
+    "en": "Level / edge",
+    "definition": "Mức là HIGH/LOW tại một thời điểm; cạnh là chuyển từ LOW→HIGH hoặc HIGH→LOW."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Ngắt ngoài",
+    "en": "External interrupt",
+    "definition": "Sự kiện ngoại vi làm CPU tạm chuyển sang chương trình phục vụ ngắt nếu được cấu hình và cho phép."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Chương trình phục vụ ngắt",
+    "en": "Interrupt service routine (ISR)",
+    "definition": "Hàm chạy khi ngắt được chấp nhận; cần ngắn, tránh thao tác chặn và lưu ý chia sẻ dữ liệu với chương trình chính."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Xử lý không chặn",
+    "en": "Non-blocking handling",
+    "definition": "Tổ chức các bước sao cho vòng chính thường xuyên quay lại kiểm tra tác vụ và sự kiện, không bị trì hoãn dài bởi delay()."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Lập lịch hợp tác",
+    "en": "Cooperative scheduling",
+    "definition": "Các tác vụ được phục vụ tuần tự theo điều kiện và mốc thời gian; không tự tạo các luồng xử lý song song."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Máy trạng thái hữu hạn",
+    "en": "Finite-state machine (FSM)",
+    "definition": "Mô hình gồm tập trạng thái, điều kiện chuyển, hành động và trạng thái ban đầu được xác định."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Dải trễ đóng–cắt",
+    "en": "Hysteresis",
+    "definition": "Sử dụng ngưỡng bật và ngưỡng tắt khác nhau; trong khoảng giữa ngưỡng, đầu ra phụ thuộc trạng thái trước. Không phải trễ thời gian."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Liên động",
+    "en": "Interlock",
+    "definition": "Điều kiện chỉ cho phép một thao tác khi các điều kiện tiên quyết được đáp ứng; liên động phần mềm không tự bảo đảm an toàn chức năng."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Điều khiển theo trình tự",
+    "en": "Sequence control",
+    "definition": "Tác động đầu ra theo thứ tự và điều kiện xác định, có thể kèm thời gian chờ và tín hiệu xác nhận."
+  },
+  {
+    "group": "Sự kiện – điều khiển",
+    "vi": "Đầu ra an toàn theo thiết kế",
+    "en": "Designed safe output",
+    "definition": "Trạng thái đầu ra được chọn khi lỗi/dừng theo bài toán; không tự chứng minh hệ thống đáp ứng tiêu chuẩn an toàn máy."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Truyền thông nối tiếp",
+    "en": "Serial communication",
+    "definition": "Truyền dữ liệu theo chuỗi bit; trong nhiều bài UNO R3 dùng Serial qua UART và bộ chuyển USB–nối tiếp."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Serial Monitor",
+    "en": "Serial Monitor",
+    "definition": "Công cụ trên máy tính/Tinkercad để gửi và xem dữ liệu Serial; không phải màn hình LCD hay cổng UART vật lý."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Giao thức bản tin",
+    "en": "Message protocol",
+    "definition": "Quy định cú pháp lệnh, phân định bản tin, độ dài tối đa và phản hồi hợp lệ/không hợp lệ."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Bộ đệm nhận",
+    "en": "Receive buffer",
+    "definition": "Vùng nhớ tạm lưu dữ liệu đang nhận; cần giới hạn và xử lý tràn để không giải mã sai bản tin."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Ca kiểm thử",
+    "en": "Test case",
+    "definition": "Tập đầu vào, điều kiện thực hiện và kết quả kỳ vọng dùng để xác nhận hành vi chương trình."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Kiểm thử giá trị biên",
+    "en": "Boundary-value testing",
+    "definition": "Kiểm tra tại, ngay dưới và ngay trên một ngưỡng hoặc giới hạn; chú ý phép so sánh >, >=, <, <=."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Dữ liệu ngoài miền hợp lệ",
+    "en": "Out-of-range input",
+    "definition": "Dữ liệu không đáp ứng phạm vi bài toán; là dấu hiệu cần xử lý, chưa đủ kết luận cảm biến bị hỏng."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Mô phỏng logic",
+    "en": "Logic simulation",
+    "definition": "Minh họa thuật toán hoặc bảng trạng thái, không mô phỏng tính chất điện hoặc thực thi đầy đủ vi điều khiển."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Mô phỏng mạch trên Tinkercad",
+    "en": "Circuit simulation",
+    "definition": "Chạy mô hình mạch và mã Arduino trong Tinkercad Circuits; không thay thế thử nghiệm và nghiệm thu phần cứng thật."
+  },
+  {
+    "group": "Truyền thông – kiểm thử",
+    "vi": "Tiêu chí chấm điểm",
+    "en": "Rubric criterion",
+    "definition": "Mô tả biểu hiện cần đánh giá, minh chứng và mức đạt; điểm số không chỉ dựa trên việc chương trình có chạy."
+  }
+]
